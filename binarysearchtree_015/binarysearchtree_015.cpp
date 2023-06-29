@@ -46,6 +46,10 @@ public:
 		}
 
 		if (element, parent, currentNode); // Locate the node which will be the parent of the node to be inserted
+		{
+			parent->leftchild = newNode; // make the left child of the parent point to the new node
+
+		} 
 
 		
 		
