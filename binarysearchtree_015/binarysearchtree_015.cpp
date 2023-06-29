@@ -30,5 +30,8 @@ public:
 	}
 
 	void insert(string element) //insert a node in the binary search tree
+	{
+		Node* newNode = new Node(element, NULL, NULL); //Allcote memory for the new mode
+		
 	
 	
