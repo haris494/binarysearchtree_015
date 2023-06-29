@@ -18,7 +18,6 @@ public:
 	}
 };
 
-
 class BinaryTree
 {
 public:
@@ -33,7 +32,10 @@ public:
 	{
 		Node* newNode = new Node(element, NULL, NULL); //Allcote memory for the new mode
 		newNode->info = element; // Assign value to the data field of the new mode
+		newNode->rightchild = NULL; // make the left child of the new node point to NULL
+		newNode->rightchild = NULL; // make the right child of the new point to NULL
 
+		
 		
 	
 	
